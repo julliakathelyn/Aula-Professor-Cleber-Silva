@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="UTF-8">
+         <link rel="stylesheet" href="meucss.css">
+         <script type="text/javascript" src="meujavascript.js"></script>
+    </head>
+    <body>
+
+       <h1> Calculadora</h1>
+       <br>
+       <p> Nesta pagina é possivel realizar operações matemáticas básicas </p>
+       <label id="lvalor1"> Valor 1: </label>
+       <input type="text" id="ivalor1"/> <br><br>
+
+
+       <label  class="classLabel"> Valor 2: </label>
+       <input type="text" id="ivalor2"/><br><br>
+
+       <div>
+            <label> Soma:</label>
+            <input type="radio" name="calc" id="soma" value="soma"/> 
+            <label> Subtração:</label>
+            <input type="radio" name="calc" id="Subtracao" value="Subtracao"/>
+            <label> Multiplicação:</label>
+            <input type="radio" name="calc" id="Multiplicacao" value="Multiplicacao"/>
+            <label> Divisão:</label>
+            <input type="radio" name="calc" id="divisao" value="divisao"/>
+
+       </div>
+       <br> 
+
+       <button onclick="calculadora()"> Calcular </button>
+       <p> Volte sempre </p>
+       <h3 class="classLabel"> Obrigado </h3>
+    </body>
+</html>
